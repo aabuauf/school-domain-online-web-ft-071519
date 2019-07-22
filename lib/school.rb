@@ -31,7 +31,7 @@ end
 
 def sort()
   @roster.each do|grade,studentArray|
-  @roster[grade].sort
+  @roster[grade]=@roster[grade].sort
   end
 end
 end
