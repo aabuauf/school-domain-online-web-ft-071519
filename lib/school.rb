@@ -30,7 +30,7 @@ def grade(grade)
 end
 
 def sort()
-  @roster.collect do|grade,studentArray|
+  @roster.each do|grade,studentArray|
   @roster[grade].sort
   end
 end
